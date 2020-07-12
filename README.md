@@ -11,6 +11,16 @@ https://developer.twitter.com/en/docs/basics/authentication/oauth-1-0a
 
 API configuration is in src/api/config.js
 
+Udate below vars in config file with your data (consumerkey and the token secret only)
+
+const consumer_key='...'
+const token='...'
+const signature_method='HMAC-SHA1'
+const timestamp='1594446647'
+const nonce = 'K7ny27JTpKVsTgdyLdDfmQQWVLERj2zAK5BslRsqyw'
+const version ='1.0'
+const signature = 'LcZttpUAUt6WSGZxK7XsI825ZLA%3D'
+
 In case browser gives CORS error, I have added PROXY_URL to add twitter api
 
 ## Run project locally:
